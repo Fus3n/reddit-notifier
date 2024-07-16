@@ -25,3 +25,11 @@ Opening it for the first time will ask you to configure just click ok and in the
 After setting your username, password, client ID and client secret respectively set the check interval around 25-30 seconds, its minimum locked to 25 seconds so you dont get rate limited just to be safe. After that just click save and restart and it should restart on it's own, if not then start it again.
 
 
+
+### Todo
+- Cleanup code
+- Add Image downloader
+- Expand details from post without opening link
+
+
+
