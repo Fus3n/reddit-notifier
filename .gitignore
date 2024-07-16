@@ -1,0 +1,5 @@
+/.venv
+/output
+**/__pycache__/
+**/noti_config.ini
+/compile-exe-config.json

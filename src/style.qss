@@ -1,0 +1,164 @@
+QScrollBar:vertical {
+    border: none;
+    width: 14px;
+    margin: 15px 0 15px 0;
+    background-color: #2d2d2d;
+    border-radius: 0px;
+}
+
+
+QScrollBar:handle:vertical {
+    background-color: #3e3d3d;
+}
+
+QScrollBar:handle:vertical:hover {
+    background-color: #4c4a4a;
+}
+
+
+QScrollBar:handle:vertical:pressed {
+    background-color: #5c5b5b;
+}
+
+
+QScrollBar::sub-line::vertical {
+    border: none;
+    background: none;
+    height: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line::vertical {
+    border: none;
+    background: none;
+    height: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+
+
+QScrollBar::add-page:vertical,  QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+
+QScrollBar:horizontal {
+    border: none;
+    height: 14px;
+    margin: 0px 0 0 0;
+    background-color: #2d2d2d;
+    border-radius: 0px;
+}
+
+
+QScrollBar:handle:horizontal {
+    background-color: #3e3d3d;
+}
+
+QScrollBar:handle:horizontal:hover {
+    background-color: #4c4a4a;
+}
+
+QScrollBar:handle:horizontal:pressed {
+    background-color: #5c5b5b;
+}
+
+
+QScrollBar::sub-line::horizontal {
+    border: none;
+    background: none;
+    width: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    subcontrol-position: top;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::add-line::horizontal {
+    border: none;
+    background: none;
+    width: 15px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    subcontrol-position: bottom;
+    subcontrol-origin: margin;
+}
+QListWidget {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+    background-color: transparent;
+    outline: none;
+}
+
+
+QScrollBar::add-page:horizontal,  QScrollBar::sub-page:horizontal {
+    background: none;
+}
+
+QListWidget::item:selected {
+    background: transparent;
+    outline: none;
+}
+QListWidget::item:active {
+    background: transparent;
+    outline: none;
+}
+QListWidget::selection {
+    background: transparent;
+    outline: none;
+}
+QListWidget::selected {
+    background: transparent;
+    outline: none;
+}
+
+
+QSpinBox {
+    /* border: 1px solid black; */
+    border-radius: 6px;
+}
+
+
+
+QSpinBox::up-button {
+    width: 16px;
+    background-color: #6aa1ff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-top-right-radius: 6px;
+}
+QSpinBox::up-button:pressed {
+    background-color: #6191e5;
+}
+
+QSpinBox::up-arrow {
+    image: url(icons/icons8-sort-up-50.png);
+    width: 15px;
+    height: 15px;
+}
+
+QSpinBox::down-button {
+    width: 16px;
+    background-color: #6aa1ff;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-bottom-right-radius: 6px;
+}
+
+QSpinBox::down-button:pressed {
+    background-color: #6191e5;
+}
+
+QSpinBox::down-arrow {
+    image: url(icons/icons8-sort-down-50.png);
+    width: 15px;
+    height: 15px;
+}
